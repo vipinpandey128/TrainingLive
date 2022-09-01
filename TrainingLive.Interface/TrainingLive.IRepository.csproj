@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TrainingLive.Models\TrainingLive.Models.csproj" />
+    <ProjectReference Include="..\TrainingLive.ViewModels\TrainingLive.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>

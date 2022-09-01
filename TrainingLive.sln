@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingLive", "TrainingLive\TrainingLive.csproj", "{66AEA90E-6D93-4C7D-9833-E084E7F47A42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainingLive", "TrainingLive\TrainingLive.csproj", "{66AEA90E-6D93-4C7D-9833-E084E7F47A42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingLive.Models", "TrainingLive.Models\TrainingLive.Models.csproj", "{88201273-E7DB-4137-8038-2C9772145040}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainingLive.Models", "TrainingLive.Models\TrainingLive.Models.csproj", "{88201273-E7DB-4137-8038-2C9772145040}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingLive.ViewModels", "TrainingLive.ViewModels\TrainingLive.ViewModels.csproj", "{3E4BC259-3F17-459F-935E-91B831221FF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainingLive.ViewModels", "TrainingLive.ViewModels\TrainingLive.ViewModels.csproj", "{3E4BC259-3F17-459F-935E-91B831221FF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingLive.IRepository", "TrainingLive.Interface\TrainingLive.IRepository.csproj", "{09DB80E7-BABB-4024-903B-885748027A12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainingLive.IRepository", "TrainingLive.Interface\TrainingLive.IRepository.csproj", "{09DB80E7-BABB-4024-903B-885748027A12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingLive.Repository", "TrainingLive.Concrete\TrainingLive.Repository.csproj", "{FAC09F0F-BF46-4CE8-885F-B16A04CF863D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainingLive.Repository", "TrainingLive.Concrete\TrainingLive.Repository.csproj", "{FAC09F0F-BF46-4CE8-885F-B16A04CF863D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingLive.Common", "TrainingLive.Common\TrainingLive.Common.csproj", "{9F265CBE-BBC0-441E-ADFD-A6A9DF38CB0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{FAC09F0F-BF46-4CE8-885F-B16A04CF863D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAC09F0F-BF46-4CE8-885F-B16A04CF863D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAC09F0F-BF46-4CE8-885F-B16A04CF863D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F265CBE-BBC0-441E-ADFD-A6A9DF38CB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F265CBE-BBC0-441E-ADFD-A6A9DF38CB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F265CBE-BBC0-441E-ADFD-A6A9DF38CB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F265CBE-BBC0-441E-ADFD-A6A9DF38CB0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
